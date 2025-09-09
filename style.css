@@ -1,0 +1,74 @@
+/* Estilos Gerais (melhorados) */
+body {
+    font-family: 'Poppins', sans-serif; /* Use uma fonte mais moderna */
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f0f2f5; /* Cor de fundo mais suave */
+    color: #333;
+    scroll-behavior: smooth;
+    overflow-x: hidden; /* Evita scroll lateral */
+}
+
+/* ... Outras seções ... */
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #007bff, #5a67d8); /* Gradiente de cor */
+    color: #fff;
+    padding: 8rem 1rem; /* Mais espaço */
+    text-align: left; /* Alinhamento à esquerda */
+}
+
+.hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.cta-button {
+    background: #fff;
+    color: #007bff;
+    padding: 1rem 2.5rem;
+    border-radius: 50px; /* Botão mais arredondado */
+    font-weight: bold;
+    transition: all 0.3s ease; /* Animação ao passar o mouse */
+}
+
+.cta-button:hover {
+    transform: translateY(-5px); /* Move o botão para cima */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Projetos */
+.projects-section {
+    background: #fff;
+}
+
+.projects-grid {
+    display: flex; /* Flexbox para melhor controle */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto 0;
+}
+
+.project-card {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    width: 350px; /* Largura fixa para os cards */
+    text-align: left; /* Alinhamento do texto */
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
